@@ -18,6 +18,13 @@ Semantic Feature generation involves generating the similarity value for Main wo
         
         &emsp;&emsp;&emsp;Similarity between words&emsp;&emsp;&emsp;&emsp;&emsp;                        =&emsp; Weight of Level (W)&nbsp; * &nbsp;Wordnet Similarity (S) </br>
            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                         =  &nbsp;0.95 * 0.95 * Wordnet Similarity(nltk wordnet similarity)
+           -
+            -
+              -
+                -
+                    -
+                        -
+                            -
 
 
 

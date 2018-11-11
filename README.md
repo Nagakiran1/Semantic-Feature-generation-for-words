@@ -10,9 +10,9 @@ Semantic Feature generation involves generating the similarity value for Main wo
     Calculating the WOrd similarity between the synonyms based on 
     
     &emsp;&emsp;&emsp;Similarity between words &emsp;&emsp;&emsp;&emsp;      =  &emsp;Weight of Level (W) &nbsp; * &nbsp; Wordnet Similarity (S)</br>
-          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;  = &emsp; 0.95 &nbsp;* &nbsp;Wordnet Similarity(nltk wordnet similarity)</br>
+          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;&nbsp;  = &emsp; 0.95 &nbsp;* &nbsp;Wordnet Similarity(nltk wordnet similarity)</br>
 
-     - Finding the Synonyms for all Main word Synonyms defined in First level from Thesaurus Dictionary. Assigning weight for each            synonym word based on the lexical similairity between synonyms words with Main word with the use Natural Language Toolkit (nltk) library in python
+     - 2nd Level Finding the Synonyms for all Main word Synonyms defined in First level from Thesaurus Dictionary. Assigning weight for each            synonym word based on the lexical similairity between synonyms words with Main word with the use Natural Language Toolkit (nltk) library in python
 
         Calculating the WOrd similarity between the synonyms based on 
         
@@ -20,6 +20,16 @@ Semantic Feature generation involves generating the similarity value for Main wo
            &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                         =  &nbsp;0.95 * 0.95 * Wordnet Similarity(nltk wordnet similarity)
 
 
+
+
+       
+     - Nth Level Finding the Synonyms for all Main word Synonyms defined in First level from Thesaurus Dictionary. Assigning weight for each synonym word based on the lexical similairity between synonyms words with Main word with the use Natural Language Toolkit (nltk) library in python
+     
+     
+        Calculating the WOrd similarity between the synonyms based on 
+        
+        &emsp;&emsp;&emsp;Similarity between words&emsp;&emsp;&emsp;&emsp;&emsp;                        =&emsp; Weight of Level (W)&nbsp; * &nbsp;Wordnet Similarity (S) </br>
+           &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;                         =  &nbsp;0.95 ^ N * Wordnet Similarity(nltk wordnet similarity)
 
 
 

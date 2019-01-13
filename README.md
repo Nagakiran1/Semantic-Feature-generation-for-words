@@ -2,7 +2,7 @@
 
 Semantic similarity and Feature generating to the word is very important in any language modelling or Text analysis.
 
-Semantic Feature generation involves generating the similarity value for Main word with all other synonyms associated with Main word by calculating the synonyms level by level and incorporating the Lexical similarity from Natural Language toolkit.
+Semantic Feature generation involves generating the similarity value for Main word with all other synonyms associated with Main word by calculating the synonym distance level by level and incorporating the Lexical similarity from Natural Language toolkit.
 
 ## Feature Vector Generating for Main word
 -  Extracting Main word Synonyms from Thesaurus Dictionary. Assigning weight for each synonym word based on the lexical similairity between synonyms words with Main word with the use Natural Language Toolkit (nltk) library in python

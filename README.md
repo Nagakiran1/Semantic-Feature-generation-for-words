@@ -1,6 +1,6 @@
 # Semantic Feature generation for words
 
-Semantic similarity and Feature generating to the word is very important in any language modelling or Text analysis.
+[Semantic similarity and Feature generating to the word is very important in any language modelling or Text analysis.](https://medium.com/datadriveninvestor/semantic-feature-generation-for-words-9f47251eb5bd)
 
 Semantic Feature generation involves generating the similarity value for Main word with all other synonyms associated with Main word by calculating the synonym distance level by level and incorporating the Lexical similarity from Natural Language toolkit.
 
